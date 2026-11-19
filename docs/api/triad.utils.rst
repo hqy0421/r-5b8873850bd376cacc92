@@ -114,6 +114,14 @@ triad.utils.schema
    :show-inheritance:
    :undoc-members:
 
+triad.utils.sqlite
+------------------
+
+.. automodule:: triad.utils.sqlite
+   :members:
+   :show-inheritance:
+   :undoc-members:
+
 triad.utils.string
 ------------------
 

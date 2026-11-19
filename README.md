@@ -20,6 +20,10 @@ pip install triad
 
 ## Release History
 
+### Unreleased
+
+* Add `triad.utils.sqlite.SQLiteRepairLoader` for correction driven cleaning queues: per record revision tracking with raw snapshot history, tasks pinned to their submission snapshot, atomic all-or-nothing row loading through `apply_schema` and the declared arrow output schema, and durable state that survives reopening the database. Only SQLite scalar field types are supported for now.
+
 ### 1.0.4
 
 * Lossless large type normalization (keeps nullability, metadata and `keys_sorted`); add `normalize_large_types_in_table`
